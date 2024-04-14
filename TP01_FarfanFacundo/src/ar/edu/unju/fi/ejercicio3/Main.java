@@ -15,6 +15,7 @@ public class Main {
 			int doubl = number * 2;
 			System.out.println("El número ingresado es impar.El doble del número es: " + doubl);
 		}
+		scanner.close();
 	}
 
 }
