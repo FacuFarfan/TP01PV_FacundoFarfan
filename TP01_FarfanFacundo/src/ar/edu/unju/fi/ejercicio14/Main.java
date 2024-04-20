@@ -8,7 +8,7 @@ public class Main {
 		do {
 			System.out.println("Ingrese un numero entre 3 y 10:");
 			number = scanner.nextInt();
-		}while(number <=3 || number >=10);
+		}while(number <3 || number >10);
 		int[] array = new int[number];
 		for(int i=0;i<number;i++) {
 			System.out.println("Ingrese un numero: ");
